@@ -39,6 +39,7 @@ a {
 }
 
 #avatar {
+  background-image: url('../images/avatar.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
