@@ -1,6 +1,9 @@
 $primeryFont: "Roboto",
 sans-serif;
 $bgColor: black;
+$textGradient: #ffc415,
+#ff534a,
+#2340ff;
 
 * {
     margin: 0;
@@ -13,4 +16,10 @@ body {
     background: $bgColor;
     color: #fff;
     height: 100vh;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
 }

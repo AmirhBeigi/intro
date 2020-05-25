@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
 @import "config";
+@import "button";
 
 #twitter {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    float: right;
 
     #avatar {
         background-image: url('/dist/images/avatar.jpg');
@@ -17,3 +18,51 @@
         margin-left: 0.5em;
     }
 }
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 50px 70px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 50px;
+
+    span {
+        display: block;
+        font-size: 83px;
+        font-weight: 100 !important;
+        color: #202020;
+    }
+
+    #txt-gradient {
+        background: -webkit-linear-gradient(20deg, $textGradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: max-content;
+    }
+}
+
+#contact {
+    width: 50rem;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    span {
+        font-size: 40px;
+        font-weight: 300;
+        color: #9e9e9e;
+        margin-bottom: 20px;
+    }
+
+    @extend %button;
+}
+
+@import 'mobile';
