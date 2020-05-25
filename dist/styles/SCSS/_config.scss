@@ -1,0 +1,16 @@
+$primeryFont: "Roboto",
+sans-serif;
+$bgColor: black;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primeryFont;
+}
+
+body {
+    background: $bgColor;
+    color: #fff;
+    height: 100vh;
+}
