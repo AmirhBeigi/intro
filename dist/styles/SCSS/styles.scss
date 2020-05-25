@@ -1,2 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
 @import "config";
+
+#twitter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    #avatar {
+        background-image: url('/dist/images/avatar.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 2em;
+        height: 2em;
+        margin-left: 0.5em;
+    }
+}
