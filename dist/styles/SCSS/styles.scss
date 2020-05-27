@@ -65,4 +65,30 @@
     @extend %button;
 }
 
+footer {
+    height: 60px;
+    background: #0f0f0f;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        letter-spacing: 19px;
+        font-weight: 900;
+        font-size: 19px;
+        color: #403f3f;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+
+        a {
+            font-size: 17px;
+            margin: 0 8px;
+        }
+    }
+}
+
 @import 'mobile';

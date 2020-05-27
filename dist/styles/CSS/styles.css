@@ -115,6 +115,32 @@ body a {
   margin-bottom: 20px;
 }
 
+footer {
+  height: 60px;
+  background: #0f0f0f;
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer span {
+  letter-spacing: 19px;
+  font-weight: 900;
+  font-size: 19px;
+  color: #403f3f;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+footer div a {
+  font-size: 17px;
+  margin: 0 8px;
+}
+
 @media (max-width: 845px) {
   #twitter span {
     font-size: 12px;
