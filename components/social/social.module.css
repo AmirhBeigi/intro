@@ -1,0 +1,21 @@
+.container {
+  border: 1.5px dashed rgba(23, 11, 93, 0.19);
+  border-radius: 0.8em;
+  padding: 1em;
+  margin-top: 0.9em;
+  display: flex;
+  gap: 1.5em;
+}
+
+.item {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgba(23, 11, 93, 0.51);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.item:hover {
+  color: rgba(23, 11, 93, 1);
+}
