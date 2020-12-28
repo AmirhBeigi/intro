@@ -1,10 +1,10 @@
-import Head from "next/head";
 import Layout from "../components/layout";
+import Avatar from "../components/avatar";
 
 export default function Home() {
   return (
-    <Layout home>
-      <span>hi</span>
+    <Layout>
+      <Avatar src="/images/me.jpg" />
     </Layout>
   );
 }

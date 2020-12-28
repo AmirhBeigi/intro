@@ -1,20 +1,19 @@
 import Head from "next/head";
 import styles from "./layout.module.scss";
-import Link from "next/link";
 
-const name = "Amirhossein Beigi";
-export const siteTitle = "Amirhossein Beigi | Front-end Developer";
-
-export default function Layout({ children }) {
+const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Amirhossein Beigi | Front-end Developer" />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="og:title" content="Amirhossein Beigi | Front-end Developer" />
         <meta name="twitter:card" content="summary_large_image" />
+        <title>AmirhBeigi</title>
       </Head>
       {children}
     </div>
   );
-}
+};
+
+export default Layout;
