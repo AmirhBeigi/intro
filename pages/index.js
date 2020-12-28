@@ -6,7 +6,7 @@ import Social from "../components/social";
 const Home = () => {
   const socials = {
     GitHub: "https://github.com/amirhbeigi",
-    LinkeIn: "https://linkedin.com/in/amirhbeigi",
+    LinkedIn: "https://linkedin.com/in/amirhbeigi",
     Twitter: "https://Twitter.com/amirhbeigi",
   };
 
