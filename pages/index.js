@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <Avatar src="/images/me.jpg" />
+      <Avatar src="/images/me.jpg" emoji="/images/emoji.png" />
       <Intro name="Amirhossein Beigi" skill="Front End Developer" />
       <Social src={socials} />
     </Layout>

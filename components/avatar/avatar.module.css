@@ -1,6 +1,30 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5em;
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
 .img {
   width: 7em;
   height: 7em;
-  border-radius: 100%;
-  margin-bottom: 0.5em;
+  transition: filter 4s;
+}
+
+.emoji {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.container:hover > .img {
+  filter: hue-rotate(80deg);
+}
+
+.container:hover > .emoji {
+  opacity: 1;
 }

@@ -4,7 +4,7 @@ const Intro = ({ src }) => {
   return (
     <div className={styles.container}>
       {Object.keys(src).map((item) => (
-        <a key={item} className={styles.item} href={src[item]}>
+        <a key={item} className={styles.item} href={src[item]} target="_blank">
           {item}
         </a>
       ))}
