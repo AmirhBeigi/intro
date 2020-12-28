@@ -1,4 +1,4 @@
-import styles from "./avatar.module.scss";
+import styles from "./avatar.module.css";
 
 const Avatar = ({ src }) => {
   return <img className={styles.img} src={src} alt="Me!" />;
