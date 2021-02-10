@@ -12,7 +12,7 @@
 .img {
   width: 7em;
   height: 7em;
-  transition: filter 1s;
+  transition: filter 3s;
 }
 
 .emoji {
