@@ -9,6 +9,9 @@ const Layout = ({ children }) => {
         <meta name="description" content="Amirhossein Beigi | Front-end Developer" />
         <meta name="og:title" content="Amirhossein Beigi | Front-end Developer" />
         <meta name="twitter:card" content="summary_large_image" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <title>AmirhBeigi</title>
       </Head>
       {children}
