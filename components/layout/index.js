@@ -22,6 +22,7 @@ const Layout = ({ children }) => {
   gtag('config', 'G-5KBPJRYWZ9');`,
           }}
         ></script>
+        <script src="https://www.googleoptimize.com/optimize.js?id=OPT-TN6F3K8"></script>
         <script asyn src="https://www.googletagmanager.com/gtag/js?id=G-5KBPJRYWZ9"></script>
       </Head>
 
