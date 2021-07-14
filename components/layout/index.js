@@ -22,6 +22,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NJPKMTT');`,
           }}
         ></script>
+        <script src="https://www.googleoptimize.com/optimize.js?id=OPT-M3VDX5W"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-202259902-1"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: ` window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-202259902-1');`,
+          }}
+        ></script>
       </Head>
       <noscript
         dangerouslySetInnerHTML={{
